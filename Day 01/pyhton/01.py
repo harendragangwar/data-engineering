@@ -1,1 +1,12 @@
-print("hello world")
+print("hii this is my first python code")
+# this is a comment
+
+
+print("hi \"python\"")
+print('hii this is my second "program"')
+
+#new line
+print("hii this is my first python code\nthis is my second line")
+
+print("your learning path:\n\t - python")
+
