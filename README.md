@@ -1,6 +1,6 @@
 # Data Engineering Journey
 
-My journey from beginner to job-ready Data Engineer.
+Beginner to job-ready Data Engineer.
 
 Goal:
 Build strong Data Engineering fundamentals, real-world projects,
