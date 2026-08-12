@@ -10,3 +10,6 @@ print("hii this is my first python code\nthis is my second line")
 
 print("your learning path:\n\t - python")
 
+# varealbles
+x = 10
+print(x)
