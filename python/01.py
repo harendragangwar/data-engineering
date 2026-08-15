@@ -18,4 +18,3 @@ x=10
 y=10.5
 # pyhton automattically detects the data type of the variable
 # pyhton is very dynamic language it means data type can change any time
-
