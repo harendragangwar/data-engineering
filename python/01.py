@@ -1,7 +1,6 @@
 print("hii this is my first python code")
 # this is a comment
 
-
 print("hi \"python\"")
 print('hii this is my second "program"')
 
