@@ -15,3 +15,4 @@ print(x[0:len(x)])
 # strings functions
 print(x.upper()) # Output: HARENDRA GANGWAR
 print(x.lower()) # Output: harendra gangwar
+print(x.capitalize()) # Output: Harendra gangwar
