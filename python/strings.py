@@ -7,3 +7,5 @@ print(x[0:8]) # Output: harendra   0 to n-1
 print(x[3:16]) # Output: endra gangwar 3 to n-1
 
 print(x[:]) # x[0:n]  Output: harendra gangwar 0 to n-1
+
+print(x[0:len(x)])
