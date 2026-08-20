@@ -9,3 +9,9 @@ print(x[3:16]) # Output: endra gangwar 3 to n-1
 print(x[:]) # x[0:n]  Output: harendra gangwar 0 to n-1
 
 print(x[0:len(x)])
+
+# strings are immutable in python, we cannot change the value 
+
+# strings functions
+print(x.upper()) # Output: HARENDRA GANGWAR
+print(x.lower()) # Output: harendra gangwar
