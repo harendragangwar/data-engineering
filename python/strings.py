@@ -16,3 +16,5 @@ print(x[0:len(x)])
 print(x.upper()) # Output: HARENDRA GANGWAR
 print(x.lower()) # Output: harendra gangwar
 print(x.capitalize()) # Output: Harendra gangwar
+
+print(x.replace("h", "n")) # Output: narendra gangwar
