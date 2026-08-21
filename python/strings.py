@@ -18,3 +18,5 @@ print(x.lower()) # Output: harendra gangwar
 print(x.capitalize()) # Output: Harendra gangwar
 
 print(x.replace("h", "n")) # Output: narendra gangwar
+
+print(x.split(" ")) # Output: ['harendra', 'gangwar'] it converted the string into list of strings
