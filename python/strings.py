@@ -20,3 +20,9 @@ print(x.capitalize()) # Output: Harendra gangwar
 print(x.replace("h", "n")) # Output: narendra gangwar
 
 print(x.split(" ")) # Output: ['harendra', 'gangwar'] it converted the string into list of strings
+
+if (x.startswith("harendra")):
+    print("Yes, the string starts with 'harendra'") # Output: Yes, the string starts with 'harendra'
+
+if (x.endswith("gangwar")):
+    print("Yes, the string ends with 'gangwar'") # Output: Yes, the string ends with 'gangwar'
