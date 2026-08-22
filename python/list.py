@@ -1,19 +1,80 @@
-mylist =  ["hello", "world", 4, [5, 6], "hii", "hey"]
-# print(mylist) # it will print the list mylist,  [5,6] this is count as a separate index in the list   we use here concept of 2d array because we have a list inside a list
-# print(mylist[0]) # it will print the value of the index 0 of the list mylist which is hello output will be hello
-# print(mylist[0][2]) # it will print the value of the index 2 of the index 0 of the list mylist which is l output will be l
-# print(mylist[3][1]) # it will print the value of the index 1 of the index 3 of the list mylist which is 6 output will be 6 (index starts from 0)
+mylist = ["hello", "world", 4, [5, 6], "hii", "hey"]
 
+print(mylist)
+print(mylist[0])
+print(mylist[0][2])
+print(mylist[3][1])
 
-# # this is by default [0:n] (n is length of the list) and 0 is index no
-# print(mylist[:]) # it will print the value of the index 0 to n of the list mylist which is ['hello', 'world', 4, [5, 6], 'hii', 'hey'] output will be ['hello', 'world', 4, [5, 6], 'hii', 'hey']
-# print(mylist[0:3]) # it will print the value of the index 0 to 2 of the list mylist which is ['hello', 'world', 4] output will be ['hello', 'world', 4]
+print(mylist[:])
+print(mylist[0:3])
 
-# print(mylist[:]) its means here [0:n] length of the list is 6 so it will print the value of the index 0 to 5 of the list mylist which is ['hello', 'world', 4, [5, 6], 'hii', 'hey'] output will be ['hello', 'world', 4, [5, 6], 'hii', 'hey']
+print(mylist[3:4])
+print(mylist[2:5])
 
-print(mylist[3:4]) # it will print the value of the index 3 to 3 of the list mylist which is [[5, 6]] output will be [[5, 6]]
-print(mylist[2:5]) # it will print the value of the index 2 to 4 of the list mylist which is [4, [5, 6], 'hii'] output will be [4, [5, 6], 'hii']
+print(mylist[::2])
 
-print(mylist[::2]) # it will print the value of the index 0 to n of the list mylist with step 2 which is ['hello', 4, 'hii'] output will be ['hello', 4, 'hii']
+print(mylist[::-1])
 
-print(mylist[::-1]) # it will print the value of the index n to 0 of the list mylist with step -1 which is ['hey', 'hii', [5, 6], 4, 'world', 'hello'] output will be ['hey', 'hii', [5, 6], 4, 'world', 'hello']
+print(mylist[-2:-5])
+print(mylist[-2:-5:-1])
+
+# [5, 6] is a nested list because a list is stored inside another list.
+
+# Indexing starts from 0.
+# mylist[0] gives the first element: "hello".
+
+# mylist[0][2] first gets mylist[0] -> "hello",
+# then gets index 2 from "hello" -> "l".
+
+# mylist[3][1] first gets mylist[3] -> [5, 6],
+# then gets index 1 -> 6.
+
+# List slicing syntax:
+# mylist[start:end:step]
+# The end index is not included.
+
+# If start is omitted, slicing starts from index 0.
+# If end is omitted, slicing goes up to the end of the list.
+# If step is omitted, the default step is 1.
+
+# mylist[:] gives the complete list.
+# It is equivalent to mylist[0:len(mylist):1].
+
+# mylist[0:3] gives indexes 0, 1, and 2.
+# Index 3 is not included.
+
+# mylist[3:4] gives only index 3.
+# The result is [[5, 6]] because the element at index 3 is itself a list.
+
+# mylist[2:5] gives indexes 2, 3, and 4.
+# The result is [4, [5, 6], "hii"].
+
+# mylist[::2] starts from index 0 and takes every 2nd element.
+# The result is ["hello", 4, "hii"].
+
+# mylist[::-1] reverses the list.
+# A negative step means moving from right to left.
+
+# mylist[-2:-5] gives [] because the default step is +1.
+# Start index -2 is to the right of end index -5,
+# so moving left-to-right cannot reach the end index.
+
+# mylist[-2:-5:-1] works because the step is -1.
+# It moves from right to left and gives ["hii", [5, 6], 4].
+
+# Negative indexes count from the end:
+# -1 = last element
+# -2 = second-last element
+# -3 = third-last element
+
+# General slicing approach:
+# list[start:end:step]
+# Positive step -> move left to right.
+# Negative step -> move right to left.
+# The end index is never included.
+
+# mylist[len(mylist)-2 : len(mylist)-5]
+# mylist[6-2 : 6-5] 
+# mylist[4:1]  = final my list[start index:end index:step]  and step is positive so it will go left to right if it would have been negative then it would have gone right to left   end index is not included in the output / doesn't count
+# [0:n:step]     by default everything is [0:n:1] if end index is not given it would go till the end of the list like it is length of the list
+# [-10] and [10] are same because -10 is 10th element from the end and 10 is 10th element from the start
