@@ -14,3 +14,6 @@ mylist =  ["hello", "world", 4, [5, 6], "hii", "hey"]
 print(mylist[3:4]) # it will print the value of the index 3 to 3 of the list mylist which is [[5, 6]] output will be [[5, 6]]
 print(mylist[2:5]) # it will print the value of the index 2 to 4 of the list mylist which is [4, [5, 6], 'hii'] output will be [4, [5, 6], 'hii']
 
+print(mylist[::2]) # it will print the value of the index 0 to n of the list mylist with step 2 which is ['hello', 4, 'hii'] output will be ['hello', 4, 'hii']
+
+print(mylist[::-1]) # it will print the value of the index n to 0 of the list mylist with step -1 which is ['hey', 'hii', [5, 6], 4, 'world', 'hello'] output will be ['hey', 'hii', [5, 6], 4, 'world', 'hello']
