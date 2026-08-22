@@ -48,3 +48,17 @@ mylist = ["hello", "hii", "hey"]
 # h
 # e
 # y
+
+# for i in mylist:
+#     if(i.lower() == "hii"):
+#         continue  # it will skip the value of i if it is equal to "hii"
+#         print(i)  # output will be:
+# # hello
+# # hey
+
+
+for i in mylist:
+    if(i.lower() == "hii"):
+        break  # it will break the loop if the value of i is equal to "hii"
+        print(i)  # output will be: 
+# hello
