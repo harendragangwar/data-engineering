@@ -78,3 +78,8 @@ print(mylist[-2:-5:-1])
 # mylist[4:1]  = final my list[start index:end index:step]  and step is positive so it will go left to right if it would have been negative then it would have gone right to left   end index is not included in the output / doesn't count
 # [0:n:step]     by default everything is [0:n:1] if end index is not given it would go till the end of the list like it is length(n) of the list
 # [-10] and [10] are same because -10 is 10th element from the end and 10 is 10th element from the start
+
+
+mylist.append("new element")
+print(mylist) #it has added the new element to the end of the list because list are mutable and we can add new elements to them
+# mutable means we can change the list after it has been created. We can add, remove, or modify elements in a mutable list.
