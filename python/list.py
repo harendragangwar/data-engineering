@@ -12,3 +12,4 @@ mylist =  ["hello", "world", 4, [5, 6], "hii", "hey"]
 # print(mylist[:]) its means here [0:n] length of the list is 6 so it will print the value of the index 0 to 5 of the list mylist which is ['hello', 'world', 4, [5, 6], 'hii', 'hey'] output will be ['hello', 'world', 4, [5, 6], 'hii', 'hey']
 
 print(mylist[3:4]) # it will print the value of the index 3 to 3 of the list mylist which is [[5, 6]] output will be [[5, 6]]
+print(mylist[2:5]) # it will print the value of the index 2 to 4 of the list mylist which is [4, [5, 6], 'hii'] output will be [4, [5, 6], 'hii']
