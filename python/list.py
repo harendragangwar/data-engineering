@@ -5,7 +5,7 @@ mylist =  ["hello", "world", 4, [5, 6], "hii", "hey"]
 # print(mylist[3][1]) # it will print the value of the index 1 of the index 3 of the list mylist which is 6 output will be 6 (index starts from 0)
 
 
-# # this is by default [0:n] (n is length of the list)
+# # this is by default [0:n] (n is length of the list) and 0 is index no
 # print(mylist[:]) # it will print the value of the index 0 to n of the list mylist which is ['hello', 'world', 4, [5, 6], 'hii', 'hey'] output will be ['hello', 'world', 4, [5, 6], 'hii', 'hey']
 # print(mylist[0:3]) # it will print the value of the index 0 to 2 of the list mylist which is ['hello', 'world', 4] output will be ['hello', 'world', 4]
 
@@ -13,3 +13,4 @@ mylist =  ["hello", "world", 4, [5, 6], "hii", "hey"]
 
 print(mylist[3:4]) # it will print the value of the index 3 to 3 of the list mylist which is [[5, 6]] output will be [[5, 6]]
 print(mylist[2:5]) # it will print the value of the index 2 to 4 of the list mylist which is [4, [5, 6], 'hii'] output will be [4, [5, 6], 'hii']
+
