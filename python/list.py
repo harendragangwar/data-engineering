@@ -76,5 +76,5 @@ print(mylist[-2:-5:-1])
 # mylist[len(mylist)-2 : len(mylist)-5]
 # mylist[6-2 : 6-5] 
 # mylist[4:1]  = final my list[start index:end index:step]  and step is positive so it will go left to right if it would have been negative then it would have gone right to left   end index is not included in the output / doesn't count
-# [0:n:step]     by default everything is [0:n:1] if end index is not given it would go till the end of the list like it is length of the list
+# [0:n:step]     by default everything is [0:n:1] if end index is not given it would go till the end of the list like it is length(n) of the list
 # [-10] and [10] are same because -10 is 10th element from the end and 10 is 10th element from the start
