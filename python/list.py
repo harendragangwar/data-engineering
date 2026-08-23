@@ -83,3 +83,13 @@ print(mylist[-2:-5:-1])
 mylist.append("new element")
 print(mylist) #it has added the new element to the end of the list because list are mutable and we can add new elements to them
 # mutable means we can change the list after it has been created. We can add, remove, or modify elements in a mutable list.
+mylist.insert(2, "inserted element") # it will insert the new element at index 2 and shift the rest of the elements to the right
+
+# #list comprehension is a concise way to create lists. It consists of brackets containing an expression followed by a for clause, then zero or more for or if clauses. The expressions can be anything, meaning you can put in all kinds of objects in lists.
+# squares = []
+# for x in range(1, 6):
+#     squares.append(x**2)
+
+# #list comprehension
+# squares = [x**2 for x in range(1, 6)]
+# # Output: [1, 4, 9, 16, 25]
