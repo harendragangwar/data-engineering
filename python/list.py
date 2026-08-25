@@ -7,7 +7,6 @@ print(mylist[3][1])
 
 print(mylist[:])
 print(mylist[0:3])
-
 print(mylist[3:4])
 print(mylist[2:5])
 
