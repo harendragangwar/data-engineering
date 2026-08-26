@@ -26,3 +26,5 @@ if (x.startswith("harendra")):
 
 if (x.endswith("gangwar")):
     print("Yes, the string ends with 'gangwar'") # Output: Yes, the string ends with 'gangwar'
+
+print(x.find("gangwar")) # Output: 9, it returns the index of the first occurrence of the substring
