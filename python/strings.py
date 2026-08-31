@@ -27,3 +27,5 @@ if (x.endswith("gangwar")):
     print("Yes, the string ends with 'gangwar'") # Output: Yes, the string ends with 'gangwar'
 
 print(x.find("gangwar")) # Output: 9, it returns the index of the first occurrence of the substring
+print(x.find("xyz")) # Output: -1, it returns -1 if the substring is not foundS
+print(x.count("a")) # Output: 4, it returns the number of occurrences of the substringS
