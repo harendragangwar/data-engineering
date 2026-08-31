@@ -29,3 +29,4 @@ if (x.endswith("gangwar")):
 print(x.find("gangwar")) # Output: 9, it returns the index of the first occurrence of the substring
 print(x.find("xyz")) # Output: -1, it returns -1 if the substring is not foundS
 print(x.count("a")) # Output: 4, it returns the number of occurrences of the substringS
+print(x.isalpha()) # Output: False, it returns True if all characters in the string are alphabetic and there is at least one character, otherwise False
