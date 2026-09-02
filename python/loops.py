@@ -62,6 +62,11 @@
 #         break  # it will break the loop if the value of i is equal to "hii"
 #         print(i)  # output will be: 
 # # hello
+for i in mylist:
+    if(i.lower() == "hii"):
+        pass  # it will do nothing if the value of i is equal to "hii"
+        print(i)  # output will be:
+# hello
 
 # while loop
 
