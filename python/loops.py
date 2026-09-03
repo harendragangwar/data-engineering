@@ -65,16 +65,11 @@
 for i in mylist:
     if(i.lower() == "hii"):
         pass  # it will do nothing if the value of i is equal to "hii"
-        print(i)  # output will be:
-# hello
+        print(i)  # output will be:hello
 
 # while loop
-
 x = 10
-
 while(x<20):
     print(x)  # it will print the value of x in each iteration
     x = x+1    # it will increment the value of x by 1 in each iteration
-    
-    
 # x = x+1 if this thing is not there then it will print the value of x infinite times because the condition will always be true
