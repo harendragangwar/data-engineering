@@ -11,6 +11,11 @@ mylist = ["apple", "banana", "cherry"]
 for i in mylist:
     print(i)
 
+#while loop
+while True:
+    print("hello")
+    break
+
 #function
 def my_function(a, b):
     return a+b
