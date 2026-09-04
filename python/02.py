@@ -25,5 +25,7 @@ hello = my_function(5, 10)
 print(hello)
 if hello > 10:
     print("hello is greater than 10")
+elif hello == 10:
+    print("hello is equal to 10")
 else:
-    print("hello is less than or equal to 10")
+    print("hello is less than to 10")
