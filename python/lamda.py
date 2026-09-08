@@ -1,6 +1,5 @@
 # lamda function
 # A lambda function is a small anonymous function.
-
 def square(x):
     return x * x
 
