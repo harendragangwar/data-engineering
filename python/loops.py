@@ -73,3 +73,40 @@ while(x<20):
     print(x)  # it will print the value of x in each iteration
     x = x+1    # it will increment the value of x by 1 in each iteration
 # x = x+1 if this thing is not there then it will print the value of x infinite times because the condition will always be true
+
+# ==============================
+# DIRECT COMPARISON: while vs for
+# ==============================
+
+# Feature 1: Control Mechanism
+#
+# while loop:
+# Condition-driven
+# Runs as long as the condition is True
+#
+# for loop:
+# Collection-driven
+# Runs through a fixed sequence or range of items
+
+
+# Feature 2: Variable Increment
+#
+# while loop:
+# Manual
+# We must change/update the variable inside the loop
+#
+# for loop:
+# Automatic
+# Python automatically moves to the next item
+
+
+# Feature 3: Risk of Infinite Loop
+#
+# while loop:
+# High
+# If we forget to update the condition variable,
+# the loop may run forever
+#
+# for loop:
+# Extremely Low
+# It normally stops automatically when the sequence/range ends
