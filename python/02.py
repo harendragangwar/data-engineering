@@ -11,6 +11,9 @@ mylist = ["apple", "banana", "cherry"]
 for i in mylist:
     print(i)
 
+for i in range(len(mylist)):
+    print(mylist[i])
+
 #while loop
 while True:
     print("hello")
