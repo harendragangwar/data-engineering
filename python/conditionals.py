@@ -14,7 +14,6 @@ else:
 # 2. Python skips all the other remaining 'elif' checks.
 # 3. Python skips the 'else' block completely.
 # 4. The whole if-elif-else structure ends right there.
-
 # Note: Only ONE block of code will ever run
 
 
