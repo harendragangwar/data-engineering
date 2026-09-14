@@ -23,6 +23,14 @@ while True:
 def my_function(a, b):
     return a+b
 
+# Defining the function
+def greet():
+    print("Hello")
+
+# Calling the function
+greet()
+
+
 # if-else
 hello = my_function(5, 10)
 print(hello)
