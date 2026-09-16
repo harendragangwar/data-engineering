@@ -30,6 +30,11 @@ def greet():
 # Calling the function
 greet()
 
+# passing arguments
+def greet_with_name(name):
+    print(f"Hello, {name}!")
+
+greet_with_name("Alice")
 
 # if-else
 hello = my_function(5, 10)
