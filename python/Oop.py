@@ -1,6 +1,4 @@
-# ============================================================
 # 1. CLASS AND OBJECT
-# ============================================================
 
 class Student:
     # Class attribute
@@ -26,10 +24,7 @@ student2 = Student("Rahul", 21)
 student1.introduce()
 student2.introduce()
 
-
-# ============================================================
 # 2. INSTANCE ATTRIBUTES VS CLASS ATTRIBUTES
-# ============================================================
 
 class Car:
     wheels = 4  # Class attribute
