@@ -1,5 +1,4 @@
 # 1. CLASS AND OBJECT
-
 class Student:
     # Class attribute
     college = "GLA University"
@@ -43,10 +42,7 @@ print(car2.brand)
 print(car1.wheels)
 print(car2.wheels)
 
-
-# ============================================================
 # 3. INSTANCE METHOD
-# ============================================================
 
 class Person:
     def __init__(self, name):
@@ -59,10 +55,7 @@ class Person:
 person1 = Person("Himanshu")
 person1.show_name()
 
-
-# ============================================================
 # 4. CONSTRUCTOR __init__()
-# ============================================================
 
 class Employee:
     def __init__(self, name, salary):
@@ -76,11 +69,7 @@ class Employee:
 employee1 = Employee("Himanshu", 50000)
 employee1.show_details()
 
-
-# ============================================================
 # 5. self
-# ============================================================
-
 class Student:
     def __init__(self, name, age):
         self.name = name
