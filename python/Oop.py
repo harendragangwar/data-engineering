@@ -83,10 +83,7 @@ class Student:
 s1 = Student("Himanshu", 22)
 s1.show()
 
-
-# ============================================================
 # 6. CLASS METHOD
-# ============================================================
 
 class Employee:
     company = "Google"
@@ -105,11 +102,7 @@ Employee.change_company("Microsoft")
 
 print(Employee.company)
 
-
-# ============================================================
 # 7. STATIC METHOD
-# ============================================================
-
 class Calculator:
 
     @staticmethod
@@ -124,10 +117,7 @@ class Calculator:
 print(Calculator.add(10, 20))
 print(Calculator.multiply(5, 4))
 
-
-# ============================================================
 # 8. INSTANCE + CLASS + STATIC METHODS
-# ============================================================
 
 class Student:
     college = "GLA University"
@@ -156,10 +146,7 @@ s1.show_name()
 Student.show_college()
 Student.welcome()
 
-
-# ============================================================
 # 9. ENCAPSULATION
-# ============================================================
 
 class BankAccount:
 
@@ -185,10 +172,7 @@ account.deposit(5000)
 account.withdraw(3000)
 account.show_balance()
 
-
-# ============================================================
 # 10. PUBLIC VARIABLE
-# ============================================================
 
 class Student:
     def __init__(self, name):
@@ -199,10 +183,7 @@ s1 = Student("Himanshu")
 
 print(s1.name)
 
-
-# ============================================================
 # 11. PROTECTED VARIABLE
-# ============================================================
 
 class Student:
 
@@ -214,10 +195,7 @@ s1 = Student("Himanshu")
 
 print(s1._name)
 
-
-# ============================================================
 # 12. PRIVATE VARIABLE
-# ============================================================
 
 class BankAccount:
 
@@ -235,11 +213,7 @@ account.show_balance()
 # This will not work directly:
 # print(account.__balance)
 
-
-# ============================================================
 # 13. NAME MANGLING
-# ============================================================
-
 class Student:
 
     def __init__(self, name):
