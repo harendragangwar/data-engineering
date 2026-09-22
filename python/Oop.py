@@ -225,10 +225,7 @@ s1 = Student("Himanshu")
 # Python internally changes __name to _Student__name
 print(s1._Student__name)
 
-
-# ============================================================
 # 14. GETTER AND SETTER
-# ============================================================
 
 class Student:
 
@@ -253,11 +250,7 @@ s1.set_age(23)
 
 print(s1.get_age())
 
-
-# ============================================================
 # 15. PROPERTY DECORATOR
-# ============================================================
-
 class Student:
 
     def __init__(self, age):
@@ -281,11 +274,7 @@ s1.age = 23
 
 print(s1.age)
 
-
-# ============================================================
 # 16. INHERITANCE
-# ============================================================
-
 class Animal:
 
     def eat(self):
@@ -303,11 +292,7 @@ dog = Dog()
 dog.eat()
 dog.bark()
 
-
-# ============================================================
 # 17. SINGLE INHERITANCE
-# ============================================================
-
 class Parent:
 
     def show_parent(self):
@@ -325,11 +310,7 @@ obj = Child()
 obj.show_parent()
 obj.show_child()
 
-
-# ============================================================
 # 18. MULTILEVEL INHERITANCE
-# ============================================================
-
 class GrandParent:
 
     def grandparent_method(self):
@@ -355,10 +336,7 @@ obj.parent_method()
 obj.child_method()
 
 
-# ============================================================
 # 19. MULTIPLE INHERITANCE
-# ============================================================
-
 class Father:
 
     def father_method(self):
@@ -384,9 +362,7 @@ obj.mother_method()
 obj.child_method()
 
 
-# ============================================================
 # 20. HIERARCHICAL INHERITANCE
-# ============================================================
 
 class Animal:
 
