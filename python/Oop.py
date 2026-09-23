@@ -391,11 +391,7 @@ dog.bark()
 cat.eat()
 cat.meow()
 
-
-# ============================================================
 # 21. HYBRID INHERITANCE
-# ============================================================
-
 class A:
 
     def method_a(self):
@@ -427,10 +423,7 @@ obj.method_b()
 obj.method_c()
 obj.method_d()
 
-
-# ============================================================
 # 22. METHOD OVERRIDING
-# ============================================================
 
 class Animal:
 
@@ -450,11 +443,7 @@ dog = Dog()
 animal.sound()
 dog.sound()
 
-
-# ============================================================
 # 23. super()
-# ============================================================
-
 class Parent:
 
     def __init__(self):
@@ -471,9 +460,8 @@ class Child(Parent):
 obj = Child()
 
 
-# ============================================================
 # 24. super() WITH ATTRIBUTES
-# ============================================================
+
 
 class Parent:
 
@@ -493,10 +481,7 @@ obj = Child()
 print(obj.name)
 print(obj.age)
 
-
-# ============================================================
 # 25. POLYMORPHISM
-# ============================================================
 
 class Dog:
 
@@ -520,11 +505,7 @@ cat = Cat()
 make_sound(dog)
 make_sound(cat)
 
-
-# ============================================================
 # 26. DUCK TYPING
-# ============================================================
-
 class Dog:
 
     def sound(self):
@@ -545,12 +526,7 @@ make_sound(Dog())
 make_sound(Person())
 
 
-# ============================================================
 # 27. METHOD OVERLOADING
-# ============================================================
-# Python does not support traditional method overloading.
-# We can achieve similar behavior using default arguments.
-
 
 class Calculator:
 
@@ -564,11 +540,7 @@ print(calc.add(10))
 print(calc.add(10, 20))
 print(calc.add(10, 20, 30))
 
-
-# ============================================================
 # 28. OPERATOR OVERLOADING
-# ============================================================
-
 class Number:
 
     def __init__(self, value):
