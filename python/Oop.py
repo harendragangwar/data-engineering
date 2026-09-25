@@ -15,7 +15,6 @@ class Student:
         print("Age:", self.age)
         print("College:", self.college)
 
-
 # Creating objects
 student1 = Student("Himanshu", 22)
 student2 = Student("Rahul", 21)
@@ -24,7 +23,6 @@ student1.introduce()
 student2.introduce()
 
 # 2. INSTANCE ATTRIBUTES VS CLASS ATTRIBUTES
-
 class Car:
     wheels = 4  # Class attribute
 
