@@ -18,7 +18,6 @@ class Student:
 # Creating objects
 student1 = Student("Himanshu", 22)
 student2 = Student("Rahul", 21)
-
 student1.introduce()
 student2.introduce()
 
@@ -578,7 +577,6 @@ print(len(s1))
     def __eq__(self, other):
         return self.name == other.name and self.age == other.age
 
-
 s1 = Student("Himanshu", 22)
 s2 = Student("Himanshu", 22)
 
@@ -909,24 +907,18 @@ del s1.name
 
 # 49. __del__
 class Student:
-
     def __init__(self, name):
         self.name = name
 
     def __del__(self):
         print("Object destroyed")
 
-
 s1 = Student("Himanshu")
-
 del s1
 
 
 # 50. FINAL COMPLETE OOPS EXAMPLE
-
 from abc import ABC, abstractmethod
-
-
 class Employee(ABC):
 
     company = "Tech Company"
