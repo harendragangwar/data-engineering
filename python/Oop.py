@@ -804,7 +804,6 @@ obj.show()
 print(D.mro())
 
 # 43. DIAMOND INHERITANCE
-
 class A:
 
     def show(self):
@@ -901,7 +900,6 @@ s1 = Student("Himanshu")
 print(s1.name)
 
 del s1.name
-
 # This will give an error:
 # print(s1.name)
 
