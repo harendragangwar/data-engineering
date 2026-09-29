@@ -21,3 +21,30 @@ def validate_df(req_cols):
             return func(df, *args, **kwargs)
         return wrapper
     return decorator
+
+# columns needed for this job
+REQUIRED_FIELDS = ["user_id", "signup_date", "country"]
+
+@validate_df(req_cols=REQUIRED_FIELDS)
+def clean_user_records(df):
+    # normalise country field to uppercase
+    df["country"] = df["country"].str.upper()
+    return df
+
+# test run
+if __name__ == "__main__":
+    mock_data = {
+        "user_id":,
+        "signup_date": ["2026-01-01", "2026-01-02", None], 
+        "country": ["usa", "india", "uk"]
+    }
+    
+    input_df = pd.DataFrame(mock_data)
+    
+    print("starting data load...")
+    try:
+        out_df = clean_user_records(input_df)
+        print("\nprocessed output:")
+        print(out_df)
+    except Exception as err:
+        print(f"pipeline failed: {err}")
