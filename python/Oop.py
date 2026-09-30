@@ -8,8 +8,6 @@ class Student:
         # Instance attributes
         self.name = name
         self.age = age
-
-    # Instance method
     def introduce(self):
         print("Name:", self.name)
         print("Age:", self.age)
