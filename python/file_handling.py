@@ -46,10 +46,6 @@ with open("output.txt", "a") as file:
     file.writelines(line_list)
 print("[System] Appended list items using writelines().\n")
 
-
-# Let's create a tiny dummy binary/byte array since we don't have a real image
-dummy_binary_data = b'\x89PNG\r\n\x1a\n\x00\x00\x00\rIHDR\x00\x00'
-
 # Writing raw bytes to a file
 with open("dummy_image.png", "wb") as binary_file:
     binary_file.write(dummy_binary_data)
